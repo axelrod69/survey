@@ -4,8 +4,8 @@ import { useState } from "react";
 const Form = () => {
     const[clicked, setClick] = useState("v_likely");
 
-    const clickedRadio = (e) => {
-        setClick(e.target.name);
+    const clickedRadio = (event) => {
+        setClick(event.target.name);
     }
 
     return (
