@@ -1,0 +1,15 @@
+.main_screen, body{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-image: url("./work.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .main_screen > div {
+    color: white;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+} */

@@ -1,0 +1,124 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form > div {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 350px;
+    padding: 20px 40px;
+    background-color: rgba(26, 26, 26, 0.8);
+    /* opacity: 0.8; */
+    border-radius: 5px;
+}
+
+.container > div {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.input {
+    width: 350px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+    padding: 5px
+}
+
+select {
+    width: 355px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+    padding: 5px
+}
+
+.radio_button {
+    display: flex;
+    justify-content: flex-start;
+    width: 350px;
+    height: auto;
+}
+
+input[type="radio"] {
+    margin-top: -2px;
+    vertical-align: middle;
+}
+
+.radio > div {
+    margin-top: 5px;
+}
+
+.check {
+    display: flex;
+    /* justify-content: flex-start; */
+    width: 350px;
+    height: auto;
+}
+
+.box {
+    width: 350px;
+    height: auto;
+}
+
+.box > div {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+
+.commentBox {
+    display: flex;
+    margin-top: 15px;
+    width: 350px;
+    height: auto;
+}
+
+textarea {
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 0 0 5px;
+    outline: none;
+    resize: none;
+}
+
+.submit {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(108, 179, 2);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+}
