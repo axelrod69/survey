@@ -48,8 +48,8 @@ label {
 }
 
 select {
-    width: 355px;
-    height: 30px;
+    width: 360px;
+    height: 35px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 3px;
     outline: none;
